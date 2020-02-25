@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name BOB_rev4.6-rescue)(type Legacy)(uri ${KIPRJMOD}/BOB_rev4.6-rescue.lib)(options "")(descr ""))
+)

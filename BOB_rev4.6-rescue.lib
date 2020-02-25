@@ -1,0 +1,239 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 102-2927-ND-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue
+#
+DEF 102-2927-ND-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue DC/DC_C 0 40 Y Y 1 F N
+F0 "DC/DC_C" 0 0 50 H V C CNN
+F1 "102-2927-ND-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue" 0 500 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 450 400 50 0 1 0 N
+X GND 1 -450 250 100 R 50 50 1 1 W
+X Vin 2 -450 100 100 R 50 50 1 1 W
+X +Vo 3 500 100 100 L 50 50 1 1 I
+X Trim 4 500 250 100 L 50 50 1 1 I
+X 0V 5 500 400 100 L 50 50 1 1 W
+X On/Off 6 -450 400 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# G5LE-1-E_DC24-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue
+#
+DEF G5LE-1-E_DC24-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue RL 0 10 Y Y 1 F N
+F0 "RL" 900 400 60 H V C CNN
+F1 "G5LE-1-E_DC24-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue" 900 300 60 H V C CNN
+F2 "RELAY_G5LE-1-E DC24" 900 240 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ RELAY_G5LE-1-E
+$ENDFPLIST
+DRAW
+P 2 1 0 5 300 -400 1500 -400 N
+P 2 1 0 5 300 200 300 -400 N
+P 2 1 0 5 1500 -400 1500 200 N
+P 2 1 0 5 1500 200 300 200 N
+X 1 1 0 0 300 R 59 59 1 0 I
+X 2 2 0 -100 300 R 59 59 1 0 I
+X 3 3 1800 -200 300 L 59 59 1 0 O
+X 4 4 1800 -100 300 L 59 59 1 0 O
+X 5 5 1800 0 300 L 59 59 1 0 W
+ENDDRAW
+ENDDEF
+#
+# ISO1541DR-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue
+#
+DEF ISO1541DR-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue U 0 10 Y Y 1 F N
+F0 "U" 800 400 60 H V C CNN
+F1 "ISO1541DR-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue" 800 300 60 H V C CNN
+F2 "D8" 800 240 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ D8
+ D8-M
+ D8-L
+$ENDFPLIST
+DRAW
+P 2 1 0 5 300 -500 1300 -500 N
+P 2 1 0 5 300 200 300 -500 N
+P 2 1 0 5 1300 -500 1300 200 N
+P 2 1 0 5 1300 200 300 200 N
+X VCC1 1 0 0 300 R 59 59 1 0 W
+X SDA1 2 0 -100 300 R 59 59 1 0 B
+X SCL1 3 0 -200 300 R 59 59 1 0 I
+X GND1 4 0 -300 300 R 59 59 1 0 W
+X GND2 5 1600 -300 300 L 59 59 1 0 W
+X SCL2 6 1600 -200 300 L 59 59 1 0 O
+X SDA2 7 1600 -100 300 L 59 59 1 0 B
+X VCC2 8 1600 0 300 L 59 59 1 0 W
+ENDDRAW
+ENDDEF
+#
+# L78L05ACD13TR-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue
+#
+DEF L78L05ACD13TR-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue CR 0 10 Y Y 1 F N
+F0 "CR" 1100 400 60 H V C CNN
+F1 "L78L05ACD13TR-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue" 1100 300 60 H V C CNN
+F2 "SO-8" 1100 240 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ SO-8
+ SO-8-M
+ SO-8-L
+$ENDFPLIST
+DRAW
+P 2 1 0 5 300 -500 1900 -500 N
+P 2 1 0 5 300 200 300 -500 N
+P 2 1 0 5 1900 -500 1900 200 N
+P 2 1 0 5 1900 200 300 200 N
+X VOUT 1 0 0 300 R 59 59 1 0 O
+X GND 2 0 -100 300 R 59 59 1 0 W
+X GND 3 0 -200 300 R 59 59 1 0 W
+X NC 4 0 -300 300 R 59 59 1 0 N
+X NC 5 2200 -300 300 L 59 59 1 0 N
+X GND 6 2200 -200 300 L 59 59 1 0 W
+X GND 7 2200 -100 300 L 59 59 1 0 W
+X VIN 8 2200 0 300 L 59 59 1 0 I
+ENDDRAW
+ENDDEF
+#
+# LDA210S-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue
+#
+DEF LDA210S-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 300 60 H V C CNN
+F1 "LDA210S-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue" 0 -300 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -300 -250 300 250 0 1 0 N
+X IN1+ 1 -500 200 200 R 50 50 1 1 I
+X IN1- 2 -500 100 200 R 50 50 1 1 I
+X IN2+ 3 -500 -100 200 R 50 50 1 1 I
+X IN2- 4 -500 -200 200 R 50 50 1 1 I
+X OUT2- 5 500 -200 200 L 50 50 1 1 I
+X OUT2+ 6 500 -100 200 L 50 50 1 1 I
+X OUT1+ 7 500 100 200 L 50 50 1 1 I
+X OUT1- 8 500 200 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Molex_MegaFit_CONN_01X02-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue
+#
+DEF Molex_MegaFit_CONN_01X02-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue J 0 40 Y N 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "Molex_MegaFit_CONN_01X02-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue" 50 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Pin_Header_Straight_1X*
+ Pin_Header_Angled_1X*
+ Socket_Strip_Straight_1X*
+ Socket_Strip_Angled_1X*
+$ENDFPLIST
+DRAW
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 100 50 -100 0 1 0 f
+X P1 1 -200 50 150 R 50 50 1 1 P
+X P2 2 -200 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Molex_MegaFit_CONN_02X02-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue
+#
+DEF Molex_MegaFit_CONN_02X02-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue J 0 1 Y N 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "Molex_MegaFit_CONN_02X02-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue" 0 -150 50 H V C CNN
+F2 "" 0 -1200 50 H I C CNN
+F3 "" 0 -1200 50 H I C CNN
+$FPLIST
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+$ENDFPLIST
+DRAW
+S -100 -45 -50 -55 0 1 0 N
+S -100 55 -50 45 0 1 0 N
+S -100 100 100 -100 0 1 0 f
+S 50 -45 100 -55 0 1 0 N
+S 50 55 100 45 0 1 0 N
+X P1 1 250 50 150 L 50 50 1 1 P
+X P2 2 250 -50 150 L 50 50 1 1 P
+X P3 3 -250 50 150 R 50 50 1 1 P
+X P4 4 -250 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Molex_MegaFit_CONN_02X03-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue
+#
+DEF Molex_MegaFit_CONN_02X03-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue J 0 1 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Molex_MegaFit_CONN_02X03-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue" 0 -200 50 H V C CNN
+F2 "" 0 -1200 50 H I C CNN
+F3 "" 0 -1200 50 H I C CNN
+$FPLIST
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+ IDC_Header_Straight_*
+$ENDFPLIST
+DRAW
+S -100 -95 -50 -105 0 1 0 N
+S -100 5 -50 -5 0 1 0 N
+S -100 105 -50 95 0 1 0 N
+S -100 150 100 -150 0 1 0 f
+S 50 -95 100 -105 0 1 0 N
+S 50 5 100 -5 0 1 0 N
+S 50 105 100 95 0 1 0 N
+X P1 1 250 100 150 L 50 50 1 1 P
+X P2 2 250 0 150 L 50 50 1 1 P
+X P3 3 250 -100 150 L 50 50 1 1 P
+X P4 4 -250 100 150 R 50 50 1 1 P
+X P5 5 -250 0 150 R 50 50 1 1 P
+X P6 6 -250 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SN74AHC1G86DBVR-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue
+#
+DEF SN74AHC1G86DBVR-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 300 60 H V C CNN
+F1 "SN74AHC1G86DBVR-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue" 50 200 60 H V C CNN
+F2 "" 0 300 60 H I C CNN
+F3 "" 0 300 60 H I C CNN
+DRAW
+S -250 150 300 -150 0 1 0 N
+X A 1 -350 100 100 R 50 50 1 1 I
+X B 2 -350 0 100 R 50 50 1 1 I
+X GND 3 -350 -100 100 R 50 50 1 1 W
+X Y 4 400 -100 100 L 50 50 1 1 O
+X Vcc 5 400 100 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# ina226-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue
+#
+DEF ina226-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 300 60 H V C CNN
+F1 "ina226-Lafayette_Electric_Car_Internals-BOB_rev4.4-rescue" 0 450 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -350 -250 350 250 0 1 0 N
+X A1 1 -550 200 200 R 50 50 1 1 I
+X IN+ 10 550 200 200 L 50 50 1 1 I
+X A0 2 -550 100 200 R 50 50 1 1 I
+X Alert 3 -550 0 200 R 50 50 1 1 I
+X SDA 4 -550 -100 200 R 50 50 1 1 I
+X SCL 5 -550 -200 200 R 50 50 1 1 I
+X VS 6 550 -200 200 L 50 50 1 1 I
+X GND 7 550 -100 200 L 50 50 1 1 I
+X VBUS 8 550 0 200 L 50 50 1 1 I
+X IN- 9 550 100 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
